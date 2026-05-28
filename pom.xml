@@ -16,13 +16,15 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/jatihusen/Basic-Java-Maven</url>
+      <url>https://maven.pkg.github.com/raatra10/CI-CD-Sonar-Cloud</url>
     </repository>
   </distributionManagement>
   
   <properties>
-     <maven.compiler.source>1.8</maven.compiler.source>
-     <maven.compiler.target>1.8</maven.compiler.target>
+     <maven.compiler.source>21</maven.compiler.source>
+     <maven.compiler.target>21</maven.compiler.target>
+     <sonar.organization>raatra10</sonar.organization>
+     <sonar.projectKey>raatra10_CI-CD-Sonar-Cloud</sonar.projectKey>
  </properties>
   
 </project>
